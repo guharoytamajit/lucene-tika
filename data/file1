@@ -1,0 +1,7 @@
+
+
+First, you should download the latest Lucene distribution and then extract it to a working directory.
+
+You need four JARs: the Lucene JAR, the queryparser JAR, the common analysis JAR, and the Lucene demo JAR. You should see the Lucene JAR file in the core/ directory you created when you extracted the archive -- it should be named something like lucene-core-{version}.jar. You should also see files called lucene-queryparser-{version}.jar, lucene-analyzers-common-{version}.jar and lucene-demo-{version}.jar under queryparser, analysis/common/ and demo/, respectively.
+
+Put all four of these files in your Java CLASSPATH.
